@@ -38,7 +38,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `password`) VALUES
-(1510, '00');
+(1510, '12345678');
 
 -- --------------------------------------------------------
 
@@ -199,7 +199,7 @@ CREATE TABLE `faculty` (
 --
 
 INSERT INTO `faculty` (`name`, `id`, `department`, `password`, `dob`, `bg`, `gender`, `email`, `p_number`, `prt_address`, `pmt_address`, `fpic_id`) VALUES
-('Humayun Kabir', '1310', 'BCSE', '1310', '1993-12-21', 'A+', 'male', 'hkabir@iubat.edu', '01724694056', '     Uttara,Dhaka', 'Dhaka', '125722BA-F968-ED90-774E-D24BE4F2A31F.jpg'),
+('Humayun Kabir', '1310', 'BCSE', '12345678', '1993-12-21', 'A+', 'male', 'hkabir@iubat.edu', '01724694056', '     Uttara,Dhaka', 'Dhaka', '125722BA-F968-ED90-774E-D24BE4F2A31F.jpg'),
 ('Prof Dr Md Abdul Haque ', 'chair', 'BCSE', 'chair', '1965-12-14', 'A+', 'male', 'mahaque@iubat.edu', '01748 487776', 'Uttara Model Town Dhaka ', 'Uttara Model Town Dhaka ', 'E83A5970-296D-466A-85E9-3F526EB38AF2.jpg'),
 ('Dr Utpal Kanti Das ', 'ukd', 'BCSE', 'ukd', '1970-12-14', 'A+', 'male', 'ukd@iubat.edu', '01819199419', 'Ranavola, Turag Dhaka ', 'Niswarga Nir, City College Road, Mohishkhola , Narail ', 'BACD3F80-FEF6-42E8-B381-52A09098B1A9.jpg'),
 ('Mr Rashedul Islam ', 'rana', 'BCSE', 'rana', '1980-12-14', 'A+', 'male', 'rashed@iubat.edu', '01776445218', 'Uttara Model Town Dhaka ', 'Uttara Model Town Dhaka ', '69D14D6A-8DCF-4D2E-B2E2-E7DD9E36664F.jpg'),
@@ -302,7 +302,7 @@ CREATE TABLE `student` (
 --
 
 INSERT INTO `student` (`ID`, `Name`, `Program`, `password`, `Blood_group`, `Date_of_Birth`, `Gender`, `Email`, `Phone`, `Pr_Address`, `Pe_Address`, `Father_Name`, `Mother_Name`, `Contact_no`, `pic_id`) VALUES
-(15103029, 'Md. Abdullah', 'BCSE', '1', 'A+', '2016-10-21', 'male', 'abdullah001rti@gmail.com', '+8801738868597', ' Uttara,Dhaka', '       Kaliganj,Satkhira,Bangladesh ', 'Md. Abu Bakar', 'Mst. Lutfunnesa', '+88017139030833', '1764190A-F894-4D2E-8AFD-A2D180DB263E.jpg'),
+(15103029, 'Md. Abdullah', 'BCSE', '12345678', 'A+', '2016-10-21', 'male', 'abdullah001rti@gmail.com', '+8801738868597', ' Uttara,Dhaka', '       Kaliganj,Satkhira,Bangladesh ', 'Md. Abu Bakar', 'Mst. Lutfunnesa', '+88017139030833', '1764190A-F894-4D2E-8AFD-A2D180DB263E.jpg'),
 (15103047, 'Md. Suzon', 'BCSE', '1', 'A+', '2016-10-12', 'male', 'suzonim@gmail.com', '00000000000', 'Gazipur,konabari', '   Gazipur,konabari', '44444', '?', '?', 'logo.png'),
 (15103057, 'Tipu', 'BCSE', '1', 'A+', '2016-10-28', 'male', 'tipusultan@gmail.com', '0101010101', 'bamnartek', '     bamnartek', 'jani naa', 'jani naaa', '01401010101', 'logo.png'),
 (15200000, 'Aslam', 'BCSE', 'aminkhan', 'B+', '2016-10-12', 'male', 'amin@gmail.com', '017655555555', 'Dhaka,Bangladesh.', 'Bangladesh.', 'Atif', 'Asuma', '00000000111111', 'logo.png'),
