@@ -6,14 +6,14 @@
 
 University management system is a first year student class project , which is developed by HTML , CSS and raw PHP.
 
-##Features
+## Features
 1. User management
 2. Easy Student/Teacher/ Admin Login System
 3. Attendance System
 4. Result Management System
 5. Site Setting
 
-##Requirements
+## Requirements
 
     php: <= 7.3
     MySql: <= 5.7
